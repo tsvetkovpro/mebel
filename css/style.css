@@ -1,0 +1,2116 @@
+@font-face {
+  font-family: 'ProximaNova-Bold';
+  src: url("../fonts/ProximaNova-Bold.eot"/*tpa=http://www.massive-wood.ru/fonts/ProximaNova-Bold.eot*/);
+  src: url("../fonts/ProximaNova-Bold.woff2"/*tpa=http://www.massive-wood.ru/fonts/ProximaNova-Bold.woff2*/) format('woff2'),
+       url("../fonts/ProximaNova-Bold.woff"/*tpa=http://www.massive-wood.ru/fonts/ProximaNova-Bold.woff*/) format('woff'),
+       url("../fonts/ProximaNova-Bold.ttf"/*tpa=http://www.massive-wood.ru/fonts/ProximaNova-Bold.ttf*/) format('truetype'),
+       url("../fonts/ProximaNova-Bold.svg#ProximaNova-Bold"/*tpa=http://www.massive-wood.ru/fonts/ProximaNova-Bold.svg#ProximaNova-Bold*/) format('svg'),
+       url("../fonts/ProximaNova-Bold.eot-#iefix"/*tpa=http://www.massive-wood.ru/fonts/ProximaNova-Bold.eot?#iefix*/) format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'ProximaNova-Light';
+  src: url("../fonts/ProximaNova-Light.eot"/*tpa=http://www.massive-wood.ru/fonts/ProximaNova-Light.eot*/);
+  src: url("../fonts/ProximaNova-Light.woff2"/*tpa=http://www.massive-wood.ru/fonts/ProximaNova-Light.woff2*/) format('woff2'),
+       url("../fonts/ProximaNova-Light.woff"/*tpa=http://www.massive-wood.ru/fonts/ProximaNova-Light.woff*/) format('woff'),
+       url("../fonts/ProximaNova-Light.ttf"/*tpa=http://www.massive-wood.ru/fonts/ProximaNova-Light.ttf*/) format('truetype'),
+       url("../fonts/ProximaNova-Light.svg#ProximaNova-Light"/*tpa=http://www.massive-wood.ru/fonts/ProximaNova-Light.svg#ProximaNova-Light*/) format('svg'),
+       url("../fonts/ProximaNova-Light.eot-#iefix"/*tpa=http://www.massive-wood.ru/fonts/ProximaNova-Light.eot?#iefix*/) format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'ProximaNova-Regular';
+  src: url("../fonts/ProximaNova-Regular.eot"/*tpa=http://www.massive-wood.ru/fonts/ProximaNova-Regular.eot*/);
+  src: url("../fonts/ProximaNova-Regular.woff2"/*tpa=http://www.massive-wood.ru/fonts/ProximaNova-Regular.woff2*/) format('woff2'),
+       url("../fonts/ProximaNova-Regular.woff"/*tpa=http://www.massive-wood.ru/fonts/ProximaNova-Regular.woff*/) format('woff'),
+       url("../fonts/ProximaNova-Regular.ttf"/*tpa=http://www.massive-wood.ru/fonts/ProximaNova-Regular.ttf*/) format('truetype'),
+       url("../fonts/ProximaNova-Regular.svg#ProximaNova-Regular"/*tpa=http://www.massive-wood.ru/fonts/ProximaNova-Regular.svg#ProximaNova-Regular*/) format('svg'),
+       url("../fonts/ProximaNova-Regular.eot-#iefix"/*tpa=http://www.massive-wood.ru/fonts/ProximaNova-Regular.eot?#iefix*/) format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Sylfaen';
+  src: url("../fonts/8294.eot"/*tpa=http://www.massive-wood.ru/fonts/8294.eot*/);
+  src: url("../fonts/8294.woff2"/*tpa=http://www.massive-wood.ru/fonts/8294.woff2*/) format('woff2'),
+       url("../fonts/8294.eot-#iefix"/*tpa=http://www.massive-wood.ru/fonts/8294.eot?#iefix*/) format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Sylfaen';
+  src: url("../fonts/Sylfaen.woff"/*tpa=http://www.massive-wood.ru/fonts/Sylfaen.woff*/) format('woff'),
+       url("../fonts/Sylfaen.ttf"/*tpa=http://www.massive-wood.ru/fonts/Sylfaen.ttf*/) format('truetype'),
+       url("../fonts/Sylfaen.svg#Sylfaen"/*tpa=http://www.massive-wood.ru/fonts/Sylfaen.svg#Sylfaen*/) format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+*
+{
+	box-sizing:border-box;
+}
+body
+{
+	margin:0;
+	padding:0;
+	color: #000;
+	width:100%;
+	font-family: 'ProximaNova-Regular';
+}
+h1,h2,h3,h4,h5
+{
+	margin:0;
+}
+.center {
+    text-align: center;
+}
+.right {
+    text-align: right;
+}
+.left {
+    text-align: left;
+}
+.hedden {
+		display:none;
+}
+div:focus, div:active, div:hover
+{
+	outline:none !important;
+}
+#category
+{
+	float:left;
+	font-size:18px;
+	padding-top:15px;
+	color:#fff;
+}
+.red {
+    color: #ed7475;
+}
+.navbar-header
+{
+	padding:0 10px;
+}
+.line {
+    font-family: 'ProximaNova-Light';
+    font-size: 20px;
+    color: #000;
+    position: relative;
+    margin: 35px 0;
+}
+.btn-navbar {
+    font-size: 15px;
+    font-stretch: expanded;
+    color: #FFF;
+    padding: 2px 18px;
+    float: right;
+    background-color: #000000 !important;
+}
+i.fa.fa-bars {
+    color: #fff;
+}
+.container
+{
+	box-sizing:border-box;
+	max-width:1180px;
+	width:100%;
+	margin:0 auto;
+}
+p 
+{
+	margin:0;
+	padding:0 ;
+}
+span.gold {
+    color: #946100;
+    font-size: 60px;
+    display: block;
+    font-family: 'Sylfaen';
+    text-align: left;
+    text-transform: uppercase;
+    padding-top: 25%;
+}
+span.company {
+    color: #000;
+    font-size: 40px;
+    display: block;
+    font-family: 'Sylfaen';
+    text-align: left;
+}
+.clear
+{
+	clear:both;
+}
+section#six .border {
+    max-width: 700px;
+    margin: 0 auto;
+    width: 100%;
+}
+header > .container {
+    padding-top: 60px;
+}
+section#three {
+    background: #f4f4f4;
+    padding-bottom: 30px;
+    padding-top: 1px;
+    z-index: 10;
+}
+section#three .row {
+    margin: 0;
+}
+section#four {
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.5) inset;
+}
+header
+{
+	background: url("../images/bgheader.jpg"/*tpa=http://www.massive-wood.ru/images/bgheader.jpg*/) top center no-repeat;
+    width: 100%;
+    padding: 0px 5px;
+    z-index: 99999;
+    position: relative;
+        background-size: cover;
+}
+ul.nav.navbar-nav {
+    width: 100%;
+}
+ul.nav.navbar-nav li{
+    width: 20%;
+	text-align:center;
+}
+.menu {
+    background: rgba(0, 0, 0, 0.25);
+    margin: 0 -5px;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+a.buttonsend {
+    display: inline-block;
+    margin: 0 auto;
+    padding: 0px 65px;
+    height: 46px;
+    line-height: 46px;
+    background: #2293ca;
+    color: #fff;
+    font-size: 15px;
+    font-family: 'PFDinTextPro-Medium';
+    border: 0;
+    text-transform: uppercase;
+    border-radius: 10px;
+    margin-top: 25px;
+}
+.form.lite {
+    max-width: 600px;
+    min-height: 170px;
+    margin-bottom: 40px;
+}
+.want {
+    display: inline-block;
+    padding: 25px;
+    border-radius: 20px;
+    color: #fff;
+    font-size: 16px;
+    max-width: 400px;
+ }
+.flowers {
+    background:url("../images/flowers.png"/*tpa=http://www.massive-wood.ru/images/flowers.png*/);
+  }
+.nav li a
+{
+	    color: #FFFFFF;
+    font-size: 17px;
+    text-decoration: underline;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-family: 'ProximaNova-Bold';
+    padding: 20px 0px !important;
+}
+.navbar
+{
+	margin-bottom:0 !important;
+}
+.svz
+{
+	font-size:16px;
+	font-family:'calibrir';
+	font-weight:bold;
+	color:#cb4f24;
+}
+.step {
+    position: relative;
+    border: 1px solid #e6e6e6;
+    margin: 0 auto;
+    padding: 10px 10px 0px 10px;
+    background: #f9f9f9;
+}
+.material {
+        max-width: 320px;
+    margin: 0 auto;
+    position: relative;
+}
+span.text-step {
+    background: #e0e0e0;
+    display: block;
+    margin: 0px -10px;
+        color: #505050;
+    font-size: 16px;
+    padding: 25px 0 15px;
+    position: relative;
+    border-top: 10px solid #fff;
+}
+section#too {
+    background: url("../images/bgfour.jpg"/*tpa=http://www.massive-wood.ru/images/bgfour.jpg*/) no-repeat;
+    background-size: 100% 100%;
+    padding-bottom: 70px;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.5) inset;
+}
+.text-step:after {
+ content: ' ';
+    width: 0;
+    height: 0;
+    border-left: 11px solid transparent;
+    border-right: 11px solid transparent;
+    border-top: 12px solid white;
+    top: 0px;
+    left: 50%;
+    margin-left: -11px;
+    position: absolute;
+    z-index: 10;
+}
+.step.n:after {content: '';}
+.step.r:after {
+    top: 50%;
+    margin-top: -20px;
+    right: 0;
+    margin-right: -20px;
+}
+.step.b:after {
+    right: 50%;
+    margin-right: -20px;
+    bottom: -20px;
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+.step.l:after {
+    top: 50%;
+    margin-top: -20px;
+    left: -20px;
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+.row.bg {
+    background: rgba(0, 0, 0, 0.25);
+}
+@media (max-width:800px) {
+  .step.l:after, .step.b:after, .step.r:after {
+    top: 100%;
+    margin-top: -20px;
+    right: 50%;
+    margin-right: -20px;
+    left: 50%;
+    bottom: -20px;
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+  }
+}
+.table img {
+    float: left;
+    padding-right: 25px;
+    min-width: 120px;
+}
+.table p {
+    color: #fff;
+    font-family: 'ProximaNova-Regular';
+    font-size: 16px;
+    text-shadow: 0px 1px 0px #000;
+        display: table-cell;
+    vertical-align: middle;
+    padding-right: 20px;
+}
+.sale {
+    font-family: 'ProximaNova-Regular';
+    color: #fff;
+    font-size: 20px;
+    text-align: left;
+    float: right;
+    text-transform: uppercase;
+    padding-top: 45%;
+    position: relative;
+    padding-right: 70px;
+}
+.sale img {
+    position: relative;
+    right: -90px;
+    top: -60px;
+}
+.sale span{
+  font-weight: 700;
+  display: inline-block;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 8px 10px;
+      margin-left: -10px;
+}
+span.name-step {
+    position: absolute;
+    color: #fff;
+    text-transform: uppercase;
+    left: 40px;
+    bottom: 40px;
+    z-index: 10;
+    /*background: rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 0px 20px 20px rgba(0, 0, 0, 0.5);*/
+    padding: 0;
+    border-radius: 5px;
+    font-family: 'GothamRegular';
+    font-family: 'GothamPro';
+    font-weight: 700;
+    font-size: 14px;
+    text-align: left;
+    max-width: 80%;
+}
+.result
+{
+	margin-top:10px;
+	font-size:16px;
+	color:green;
+	font-family:'calibrib';
+	display:none;
+        text-align: center;
+}
+.phones
+{
+	font-size: 25px;
+    font-family: 'PFDinTextPro-Regular';
+    color: #fff;
+	white-space:nowrap;
+}
+#slide
+{
+	min-height:600px;
+	border-bottom:1px solid #D8D9D9;
+	overflow:hidden;
+}
+#slide h1 
+{
+	font-size:48px;
+	color:#d45306;
+	font-family:'calibrir';
+	text-align:right;
+	line-height:1.5;
+}
+.catalog
+{
+	margin-top:70px;
+}
+.catalog li
+{
+	padding-left:50px;
+	background:url("../images/li.jpg"/*tpa=http://www.massive-wood.ru/images/li.jpg*/) no-repeat left center;
+	font-size:26px;
+	color:#444343;
+	list-style:none;
+	margin-bottom:25px;
+}
+.more
+{
+	display:inline-block;
+	padding:3px 5px;
+	background:#BDBDBD;
+	text-transform:lowercase;
+	color:#fff;
+	cursor:pointer;
+	margin-top:30px;
+}
+.more:hover
+{
+	color:#fff;
+}
+a
+{
+	cursor:pointer;
+}
+.plus
+{
+	background:#FF4C0B;
+	padding:35px 0;
+}
+#why_we
+{
+	text-align:center;
+}
+section {
+	position: relative;
+}
+.block {
+    text-align: left;
+    border-left: 5px solid #dddddd;
+    padding: 20px 0 20px 30px;
+    width: 100%;
+}
+.line .button.too {
+    width: 280px;
+    margin-bottom: 20px;
+}
+section#six {
+    padding: 50px 0px;
+}
+.line:before {
+       display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: absolute;
+    left: -53px;
+    line-height: 40px;
+    background: #fff;
+    border: 3px solid #dddddd;
+    text-align: center;
+    color: #606060;
+    top: -5px;
+}
+.line.one:before {content: '1';}
+.line.two:before {content: '2';}
+.line.three:before {content: '3';}
+.line.four:before {content: '4';}
+.line.five:before {content: '5';}
+section#welcome {
+    background: #0a5c8a;
+    background: -moz-linear-gradient(left, #0a5c8a 0%, #2ba7e0 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, #0a5c8a), color-stop(100%, #2ba7e0));
+    background: -webkit-linear-gradient(left, #0a5c8a 0%, #2ba7e0 100%);
+    background: -o-linear-gradient(left, #0a5c8a 0%, #2ba7e0 100%));
+    background: -ms-linear-gradient(left, #0a5c8a 0%, #2ba7e0 100%);
+    background: linear-gradient(to right, #0a5c8a 0%, #2ba7e0 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0a5c8a', endColorstr='#2ba7e0', GradientType=1 );
+	background-position: center bottom;
+    background-repeat: no-repeat;
+	padding: 20px 0;
+	min-height: 750px;
+	transform: skewY(6deg);
+    -moz-transform: skewY(6deg);
+    -webkit-transform: skewY(6deg);
+	z-index: 50;
+    position: relative;
+    margin: -7% 0 -225px;
+    padding: 8% 0 40px;
+}
+a.buttonheader {
+    font-family: 'ProximaNova-Bold';
+    color: #fff;
+    text-transform: uppercase;
+    padding: 10px 30px;
+    display: inline-block;
+    background: none;
+    border: 3px double #fff;
+}
+a.buttonheader:hover {
+    color: #000000;
+    padding: 11px 31px;
+    background: #fff;
+    border: 1px solid #2d1e15;
+    outline: 2px solid #ffffff;
+    display: inline-block;
+}
+.bgo {
+		margin-bottom: -10px;
+		position: relative;
+		z-index: 5;
+	}
+@media (min-width: 801px) {
+		section#service .row .col-sm-6, section#stap3 .row .col-sm-6	{
+		display: table-cell;
+		vertical-align:middle;
+		float:none;
+	}
+	section#service {
+		margin-bottom: -70px !important;
+	}
+}
+@media (max-width: 767px) {
+	ul.nav.navbar-nav li{
+		width: 100%;
+    border-left: none !important;
+	}
+    .menu {
+    background: rgba(0, 0, 0, 0.8);
+}
+}
+img {
+    max-width: 100%;
+}
+
+section.forms {
+        margin: -140px 0 -100px;
+	text-align: center;
+	z-index: 1000;
+    position: relative;
+}
+section.forms.one {
+	margin:70px 0 0;
+}
+.form {
+       color: #545454;
+    font-size: 15px;
+    font-family: 'GothamProRegular';
+    font-family: 'GothamPro';
+    text-align: left;
+        padding: 15px 25px 25px;
+    background: #fff;
+    border-radius: 0px 0px 20px 20px;
+    margin-bottom: 15px;
+    position: relative;
+}
+.form img{
+	position: absolute;
+}
+span.blue {
+    color: #1677aa;
+}
+span.w {font-weight:700;}
+span.white {
+    color: #fff;
+}
+p.fline {
+    border-left: 8px solid #e2e2e2;
+    padding-left: 10px;
+	color: #636363;
+    font-size: 18px;
+    font-family: 'GothamProRegular';
+	font-family: 'GothamPro';
+	margin-left: 85px;
+}
+.h3 {
+    font-size: 25px;
+    text-transform: uppercase;
+}
+.form > span {
+	display: block;
+    font-size: 14px;
+    font-weight: 700;
+   }
+section#service {
+    margin-bottom: 0px;
+    position: relative;
+    z-index: 4;
+}
+section#service  .row, section#stap3  .row{
+    display: table;
+}
+span.h2 {
+    font-family: 'GothamProBold';
+    font-family: 'GothamPro-Bold';
+    font-size: 25px;
+    color: #fff;
+    text-transform: uppercase;
+    display: block;
+}
+span.gpr {
+    font-family: 'GothamProRegular';
+	font-family: 'GothamPro';
+    color: #fff;
+    font-size: 20px;
+}
+.title-block {
+    font-family: 'GothamProBold';
+    font-family: 'GothamPro-Bold';
+    font-size: 20px;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: right;
+    padding: 50px;
+    background: #0755ad;
+}
+p.bgb {
+    font-family: 'GothamProRegular';
+	font-family: 'GothamPro';
+    color: #fff;
+    text-align: right;
+    font-size: 16px;
+    background: #0755AD;
+    padding: 0 50px 50px;
+}
+section#service, section#stap2, section#stap3, section#who_are {
+    padding-top: 165px;
+}
+section {text-align: center;}
+section#stap1 {background:#FFA200;     padding-top: 100px;}
+h3, span.h3 {
+    font-size: 25px;
+    font-family: 'GothamProBold';
+    font-family: 'GothamPro-Bold';
+}
+span.number {
+    position: relative;
+	padding-left: 40px;
+    display: block;
+	margin-left: 45px;
+	padding-bottom: 50px;
+}
+#stap1 .col-sm-12 {
+    padding-bottom: 60px;
+}
+#stap1 p {
+    color: #fff;
+    font-family: 'GothamProLight';
+    font-size: 17px;
+}
+img.fl {
+    float: left;
+    padding-right: 15px;
+}
+span.number:before {
+        display: inline-block;
+    position: absolute;
+    top: -10px;
+    left: -20px;
+    width: 40px;
+    height: 50px;
+    font-size: 69px;
+    text-align: right;
+    font-family: 'GothamProLight';
+}
+section#stap2 {
+    background: #f8f8f8;
+}
+p.rline {
+    border-right: 8px solid #05699a;
+    background: #fff;
+    padding: 20px;
+    color: #095a89;
+    font-size: 18px;
+    font-family: 'GothamProRegular';
+	font-family: 'GothamPro';
+    margin-left: 85px;
+    margin-top: 40px;
+}
+span.number.one:before {
+	content: '1';
+}
+span.number.two:before {
+	content: '2';
+}
+span.number.three:before {
+	content: '3';
+}
+#service .h2 {
+    color: #515151;
+    font-family: 'GothamProBold';
+    font-family: 'GothamPro-Bold';
+    text-transform: uppercase;
+	display: block;
+    margin: 0 0 45px;
+}
+span.h3.blue.w {
+    margin-bottom: 30px;
+    display: block;
+}
+span.title {
+        color: #3c3c3c;
+    font-family: 'GothamProRegular';
+    font-family: 'GothamPro';
+    font-size: 24px;
+    display: inline-block;
+    text-transform: uppercase;
+    padding: 40px 0 110px;
+}
+section#stap3 {
+    background: #1465c1;
+}
+section#ten {
+    background: url("../images/tenbg.jpg"/*tpa=http://www.massive-wood.ru/images/tenbg.jpg*/) no-repeat center center / cover;
+   	padding: 35px 0px 120px;
+}
+section#who_are {
+    background: #F8F8F8;
+    padding-bottom:150px;
+}
+header .phones, footer .phones {
+    color: #fff;
+    font-family: 'ProximaNova-Light';
+    font-size: 30px;
+        padding-top: 25px;
+}
+#welcome .h1 {
+    font-family: 'GothamProBold';
+	font-family: 'GothamPro-Bold';
+    font-size: 34px;
+    color: #fff;
+    text-align: center;
+	margin: 0;
+    padding-top: 20px;
+}
+.question {
+    color: #fff;
+    font-size: 30px;
+    padding: 10px 0;
+    background: rgba(0, 0, 0, 0.5);
+}
+.title-form span {
+    font-size: 20px;
+}
+header .description {
+    color: #fff;
+    font-family: 'ProximaNova-Regular';
+    font-size: 20px;
+    text-align: left;
+    padding-top: 15%;
+}
+.logo {
+    padding-top: 25px;
+}
+.description span{
+    font-size: 17px;
+}
+.head
+{
+	font-family: 'GothamProRegular';
+    font-family: 'GothamPro';
+    background: #c34647;
+background: -moz-linear-gradient(left, #c34647 0%, #ec7273 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, #c34647), color-stop(100%, #ec7273));
+background: -webkit-linear-gradient(left, #c34647 0%, #ec7273 100%);
+background: -o-linear-gradient(left, #c34647 0%, #ec7273 100%);
+background: -ms-linear-gradient(left, #c34647 0%, #ec7273 100%);
+background: linear-gradient(to right, #c34647 0%, #ec7273 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c34647', endColorstr='#ec7273', GradientType=1 );
+    font-size: 20px;
+        color: #fff;
+    padding: 25px 35% 25px 25px;
+    border-radius: 20px 20px 0px 0px;
+    text-align: left;
+    display: inline-block;
+    position: relative;
+}
+.title-form {
+    color: #000;
+    font-size: 25px;
+    font-family: 'Sylfaen';
+}
+.title-form.fio {
+    /*color: #8e44ad;*/
+    margin-bottom: 10px;
+}
+.description-form {
+        font-size: 20px;
+    color: #ffffff;
+    font-family: 'Sylfaen';
+    text-align: center;
+    padding-bottom: 20px;
+}
+form .bg {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 25px 20px;
+}
+.border {
+    background: url("../images/bgborder.png"/*tpa=http://www.massive-wood.ru/images/bgborder.png*/) no-repeat;
+    background-size: 100% 100%;
+    padding: 40px 0 0 0;
+}
+img.abs {
+    position: absolute;
+    left: -70px;
+    top: -60px;
+}
+.mb10 {margin-bottom: 10px;}
+.container {position: relative;}
+img.krem-none {
+    display: none;
+}
+@media (max-width:599px) {
+    #one .container:before {
+        display: none;
+    }
+    .head {padding: 25px !important;}
+    img.krem-none {
+     display: inline-block;
+     max-width: 100%;
+    }
+}
+@media (max-width:800px) {
+  section#five .shadow > img, section#seven .shadow > img, section#three .shadow > img {
+     position: relative !important;
+    display: block;
+    right: auto !important;
+    left: auto !important;
+    top: auto !important;
+    margin: 0 auto !important;
+  }
+  h1, .h1 {
+    font-size: 40px !important;
+}
+  section#eight {
+    background: #aeaba6 url("../images/eightbg.jpg"/*tpa=http://www.massive-wood.ru/images/eightbg.jpg*/) no-repeat 60% !important; 
+  }
+}
+span.bold {
+    font-weight: 700;
+}
+.head_hr
+{
+	height:2px;
+	background:#e94d19;
+	margin-top:-30px;
+	margin-bottom:50px;
+}
+#plus
+{
+	text-align:center;
+	padding-top:30px;
+	padding-bottom:30px;
+}
+#plus h2
+{
+	color:#000;
+}
+#plus .head_hr
+{
+	background:#000;
+}
+#plus .col-sm-4
+{
+	text-align:left;
+	font-size:18px;
+	padding-bottom:20px;
+}
+#plus .col-sm-4 span
+{
+	color:#3253a0;
+}
+#forma
+{
+	text-align:center;
+	background:#C6C6C6;
+	padding:20px 0;
+}
+#forma .head
+{
+	background:#C6C6C6;
+	color:#fff;
+}
+.slick-slider p {
+    text-align: justify;
+    margin-bottom: 0px;
+    font-size: 15px;
+    font-family: 'GothamRegular';
+    font-family: 'GothamPro';
+    color: #4d4850;
+}
+section#eight h2 {
+    color: #fff;
+    font-size: 30px;
+    margin: 45px 0;
+}
+section#eight {
+    background: #aeaba6 url("../images/eightbg.jpg"/*tpa=http://www.massive-wood.ru/images/eightbg.jpg*/) no-repeat left;
+        background-size: auto 100%;
+}
+.sevenborder {
+    background: url("../images/sevenborder.jpg"/*tpa=http://www.massive-wood.ru/images/sevenborder.jpg*/) no-repeat;
+    background-size: 100% 100%;
+}
+.sevenborder.right {
+    padding: 55px 50px 55px 0px;
+}
+.sevenborder.left {
+    padding: 55px 0px 55px 50px;
+}
+.sevenborder .submit {
+    padding: 10px 45px;
+}
+.sevenborder .submit:hover {
+    padding: 10px 45px !important; 
+}
+img.img1 {
+    position: absolute;
+    left: -110px;
+    top: -70px;
+}
+img.img2 {
+    position: absolute;
+    right: -185px;
+    top: -75px;
+}
+.sevenborder .submit {
+    margin: 0;
+}
+.testi {
+    display: inline-block;
+  }
+.testi img{
+  padding-bottom: 10px;  
+}
+section#five {
+    background: url("../images/bgfive.jpg"/*tpa=http://www.massive-wood.ru/images/bgfive.jpg*/) no-repeat;
+    background-size: 100% 100%;
+}
+section#five h2 { color:#fff; }
+#five h2:before, #five .h2:before {
+    background: url("../images/line2.png"/*tpa=http://www.massive-wood.ru/images/line2.png*/);
+}
+section#five p {
+    font-family: 'ProximaNova-Regular';
+    color: #fff;
+    font-size: 20px;
+}
+section#four .col-sm-4, section#five .row {
+    margin-bottom: 30px;
+}
+.testi .red {display: block;font-size: 20px;
+    font-weight: 700;}
+.testi > div {
+    
+  }
+@media (max-width: 450px) {
+  .testi > div {
+  width: 100%;
+  margin-right:0; 
+}
+}
+section#fiveб section#four {
+    background: #F9F9F9;
+}
+section#four, section#six {
+    background: url("../images/bgfour.jpg"/*tpa=http://www.massive-wood.ru/images/bgfour.jpg*/) no-repeat;
+    background-size: 100% 100%;
+}
+section#seven {
+    padding: 120px 0 130px;
+    background: url("../images/bgseven.jpg"/*tpa=http://www.massive-wood.ru/images/bgseven.jpg*/) no-repeat;
+    background-size: 100% 100%;
+}
+.name-material {
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+    background: #faf8f6;
+    display: inline-block;
+    text-transform: uppercase;
+    line-height: 125px;
+    font-size: 20px;
+    font-family: 'Sylfaen';
+    position: absolute;
+    z-index: 10;
+    top: -10px;
+    left: 25px;
+}
+.shadow {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.05);
+    background: #fff;
+    padding: 15px;
+    position: relative;
+}
+section#three .shadow > img{
+  position: absolute;
+    right: -20%;
+    top: -35%;
+}
+section#five .shadow > img{
+  position: absolute;
+    left: -25%;
+    top: -35%;
+}
+section#seven .shadow > img{
+  position: absolute;
+    right: -25%;
+    top: -30%;
+}
+.padding {
+	padding: 10px;
+}
+.mart {
+	margin-top: 45px;
+}
+.marb {
+  margin-bottom: 45px;
+}
+.shadow .col-sm-12+.col-sm-12 {
+    margin-top: 20px;
+}
+#forma .head_hr
+{
+	background:#fff;
+}
+.foot-description {
+    color: #4d4850;
+    font-size: 16px;
+}
+footer a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: 'ProximaNova-Regular';
+    text-align: center;
+    display: inline-block;
+}
+footer a:hover {color: #736b5c}
+.soc img {
+  padding-bottom: 15px;
+}
+.pol a {
+    font-size: 14px;
+    padding-top: 15px;
+}
+#forma .form
+{
+	text-align:left;
+}
+.scroll {
+    max-height: 340px;
+    overflow-y: scroll;
+}
+form input {
+    padding-left: 20px;
+    border: none;
+    width: 100%;
+    max-width: 280px;
+    height: 50px;
+}
+.form p
+{
+	font-size:14px;
+	margin-bottom:5px;
+	color:#fff;
+}
+
+input.orange {
+    background: #f37902 !important;
+}
+#steps
+{
+	text-align:center;
+	padding-top:50px;
+}
+#steps h3
+{
+	margin-bottom:0;
+	font-size:48px;
+	color:#000;
+}
+#steps h3 span
+{
+	font-family:'calibrib';
+	font-size:55px;
+}
+#steps h4
+{
+	font-size:24px;
+	margin-bottom:20px;
+	margin-top:0;
+}
+#steps .col-sm-4
+{
+	margin-bottom:50px;
+}
+#steps .col-sm-4 p
+{
+	text-align:left;
+}
+#steps .number
+{
+	font-size:46px;
+	margin-bottom:0px;
+	text-align:center !important;
+}
+#steps .h4
+{
+	font-size:24px;
+	margin-top:-5px;
+	text-align:center !important;
+	margin-bottom:20px;
+}
+#steps img
+{
+	margin-bottom:20px;
+}
+#reviews
+{
+	text-align:center;
+	padding-bottom:50px;
+}
+#reviews .head
+{
+	color:#9d9d9d;
+}
+#reviews .head_hr
+{
+	background:#9d9d9d;
+}
+#reviews .slick2
+{
+	padding-top:50px;
+}
+#reviews .slide > div
+{
+	max-width:350px;
+}
+#reviews .slide p
+{
+	padding-left:45px;
+}
+.rev
+{
+	background:#E3E3E3;
+	text-align:left;
+}
+#reviews .h4
+{
+	font-size:24px;
+	line-height:1.5;
+	margin-bottom:20px;
+}
+.slick2 .slick-arrow
+{
+	display:none !important;
+}
+#forma2
+{
+	text-align:center;
+	padding:20px 0 75px;
+}
+#forma2 .head
+{
+	background:#fff;
+	color:#5f5f5f;
+}
+.maxw {
+    max-width: 350px;
+    margin: 45px auto 0;
+}
+.img1v, .img2v {display: none;}
+p.brend {
+    background: #8b8985;
+    font-size: 20px;
+    color: #fff;
+    font-family: 'Ubuntu-R';
+    font-family: 'Ubuntu';
+    padding: 15px;
+    width: 75%;
+    max-width: 720px;
+    float: right;
+    text-align: right;
+}
+p.design {
+    font-size: 20px;
+    color: #000000;
+    padding: 35px;
+    text-align: right;
+    background: url("../images/line.png"/*tpa=http://www.massive-wood.ru/images/line.png*/) no-repeat right;
+    background-size: auto 100%;
+    margin: 50px 0;
+}
+p.proba {
+    background: #8b8985;
+    font-size: 16px;
+    color: #fff;
+    font-family: 'Ubuntu-R';
+    font-family: 'Ubuntu';
+    padding: 15px;
+    text-align: right;
+}
+section#three .maxw, section#eight .maxw {
+    max-width: 680px;
+    margin: 0 auto;
+}
+section#seven .maxw, section#five .maxw {
+    max-width: 550px;
+    margin: 0 auto;
+}
+.submit {margin: 35px 0}
+form {
+    position: relative;
+    z-index: 11;
+    margin-top: 30px;
+    width: 100%;
+    max-width: 400px;
+    display: inline-block;
+    margin-bottom: 30px;
+}
+input.b {border:1px solid #c0c0c0;}
+#form1 {
+     background: url("../images/bgform.png"/*tpa=http://www.massive-wood.ru/images/bgform.png*/) no-repeat;
+    background-size: 100% 100%;
+    padding: 50px 40px;
+}
+form .col-sm-12+.col-sm-12 {
+    margin-top: 15px;
+}
+section#one {
+    background: #f4f4f4;
+    padding-bottom: 50px;
+    z-index: 10;
+ }
+ h2:before, .h2:before {
+  display: inline-block;
+    content: '';
+    left: 50%;
+    bottom: -35px;
+    margin-left: -103px;
+    position: absolute;
+    width: 206px;
+    height: 20px;
+    background: url("../images/line.png"/*tpa=http://www.massive-wood.ru/images/line.png*/);
+}
+img.krem {
+	display: none;
+}
+.submit, .button {
+    font-family: 'ProximaNova-Bold';
+    color: #fff;
+    text-transform: uppercase;
+    padding: 10px 30px;
+    display: inline-block;
+    background: none;
+    border: 3px double #fff;
+}
+.submit, input[type="submit"] {
+	font-family: 'ProximaNova-Bold';
+    color: #434343;
+    background: #fff;
+    text-transform: uppercase;
+    max-width: 276px;
+    display: inline-block;
+    border: 1px solid #2d1e15;
+    outline: 2px solid #ffffff;
+}
+a.submit.too:hover {
+    padding: 10px 30px;
+    color: #fff;
+    border: 1px solid #fff;
+    outline: 1px solid #2d1e15;
+    text-decoration: none;
+}
+@media (min-width: 800px){
+  .padl {
+      padding-left: 0 !important;
+  }
+  .padr{
+  	padding-right: 0 !important;
+  }
+}
+.submit, input.button.too {
+    border: 1px solid #fff;
+    outline: 1px solid #2d1e15;
+    background: url("../images/bgbutton2.jpg"/*tpa=http://www.massive-wood.ru/images/bgbutton2.jpg*/) no-repeat;
+    background-size: 100% 100%;
+    color: #fff;
+        margin-top: 15px;
+}
+.submit:hover , input.button.too:hover {background: url("../images/bgbutton.jpg"/*tpa=http://www.massive-wood.ru/images/bgbutton.jpg*/) no-repeat; background-size: 100% 100%;}
+.bg1 {
+	background-color: #ebfafb;
+}
+.bg2 {
+	background-color: #ffe8f6;
+}
+.bg3 {
+	background-color: #f9f9f9;
+}
+.bg4 {
+	background-color: #fff6e1;
+}
+.bg5 {
+	background-color: #e8fefa;
+}
+.bg6 {
+	background-color: #fff4ee;
+}
+.tovar {
+    position: relative;
+    display: table;
+    width: 100%;
+}
+.tovar p {
+    display: table-cell;
+    vertical-align: middle;
+}
+span.name-tovar {
+    color: #4d4850;
+    background: #fff;
+    display: inline-block;
+    padding: 15px 35px;
+    position: absolute;
+    top: 35px;
+    left: 0;
+}
+.border-white {
+    padding: 10px 15px;
+    background: #fff;
+    margin: 0 -5px;
+}
+.border-black {
+    border: 1px solid #000000;
+}
+.img {
+    background: #f9f9f9;
+    padding: 10px;
+    min-height: 245px;
+}
+section#three .border {
+    margin: 100px auto 60px;
+    max-width: 700px;
+}
+section#three .border img {
+    position: absolute;
+    left: -5px;
+    top: -150px;
+}
+section#three .border {
+    margin: 100px auto 60px;
+    max-width: 700px;
+    background: url("../images/borderthree.jpg"/*tpa=http://www.massive-wood.ru/images/borderthree.jpg*/) no-repeat;
+    background-size: 100% 100%;
+    padding: 40px 0 20px 0;
+}
+section#three .submit {
+    font-size: 16px;
+    font-family: 'ProximaNova-Bold';
+}
+.border-white > p {
+    background: #f9f9f9;
+    border: 1px solid #e6e6e6;
+    padding: 15px 0;
+    margin-top: 15px;
+    color: #000;
+    font-size: 16px;
+    font-family: 'ProximaNova-Regular';
+    font-weight: 700;
+}
+a.button.g {
+    color: #636363;
+    border-bottom: 3px solid #8b8b8b;
+    background: #ececec;
+     background: -moz-linear-gradient(top, #cccccc 0%, #ececec 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, #cccccc), color-stop(100%, #ececec));
+    background: -webkit-linear-gradient(top, #cccccc 0%, #ececec 100%);
+    background: -o-linear-gradient(top, #cccccc 0%, #ececec 100%);
+    background: -ms-linear-gradient(top, #cccccc 0%, #ececec 100%);
+    background: linear-gradient(to bottom, #cccccc 0%, #ececec 100%);
+     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cccccc', endColorstr='#ececec', GradientType=0 );
+}
+.site-description {
+    color: #fff;
+    font-size: 25px;
+    font-family: 'ProximaNova-Bold';
+    text-align: center;
+}
+.section-description {
+    color: #000;
+    font-size: 16px;
+    font-family: 'ProximaNova-Regular';
+    text-align: center;
+    margin-bottom: 40px;
+    font-weight: 700;
+}
+#forma2 .head_hr
+{
+	background:#5f5f5f;
+}
+#forma2 .form2
+{
+	text-align:left;
+}
+.form2 input
+{
+	padding:9px 10px;
+	border:1px solid #515151;
+	width:90%;
+}
+.form2 p
+{
+	font-size:15px;
+	margin-bottom:5px;
+	color:#515151;
+}
+.form2 input[type="submit"]
+{
+	width:215px;
+	height:40px;
+	background:#FF4C0B;
+	color:#fff;
+	font-size:18px;
+	border:0;
+	margin-top:25px;
+}
+#who_are .h2
+{
+	color:#2AA5DE;
+}
+#who_are .gpr
+{
+	color:#636363;
+	margin-top:20px;
+	display:inline-block;
+	margin-bottom:60px;
+}
+#who_are img
+{
+	margin-bottom:20px;
+}
+#who_are p
+{
+	color:#636363;
+	font-size:16px;
+	margin-bottom:50px;
+}
+.insta ul
+{
+	list-style:none;
+	padding:0px 40px 50px;
+	text-align:left;
+}
+.insta li
+{
+	font-size:14px;
+	margin-bottom:20px;
+}
+.insta .h2
+{
+	font-size:20px;
+	color:#464646 !important;
+	margin-bottom:40px;
+	margin-top:30px;
+}
+#portfolio
+{
+	    text-align: center;
+    padding: 170px 0px 0px;
+    background: #1465c1;
+}
+#portfolio .h2
+{
+	margin-bottom:70px;
+}
+#portfolio .col-sm-15
+{
+	margin-bottom:20px;
+	height:340px;
+	position:relative;
+}
+#portfolio .col-sm-15 img
+{
+	max-height:340px;
+}
+#portfolio .col-sm-15 img:hover
+{
+	zoom:1.2;
+	margin-top:-10%;
+	position:relative;
+	z-index:99;
+	margin-left:-7%;
+	max-height:none;
+	max-width:none;
+}
+ul
+{
+	padding:0;
+}
+#portfolio .head
+{
+	color:#000;
+}
+#portfolio .head_hr
+{
+	background:#000;
+}
+#contacts
+{
+	text-align:center;
+}
+#contacts .head
+{
+	color:#9d9d9d;
+}
+#contacts .head_hr
+{
+	background:#9d9d9d;
+}
+#contacts p
+{
+	font-size:18px;
+	color:#4b4b4b;
+}
+span.t-grey {
+    color: #616161;
+    font-size: 25px;
+    font-family: 'MuseoCyrl-100';
+    padding: 0px 0 10px;
+    font-weight: 300;
+    display: block;
+}
+.bgros {
+    background: rgba(237, 116, 117, 0.2);
+    border-radius: 20px 60px;
+    padding: 30px;
+    text-align: left;
+}
+p.shadow {
+    font-size: 16px;
+    color: #616161;
+    box-shadow: 0px 0px 10px #ccc;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 30px;
+        background: #fff;
+}
+p.shadow img{
+    margin-right: 10px;
+}
+.bgros b {
+    display: block;
+        margin-bottom: 15px;
+}
+.bgros ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+footer
+{
+	padding: 20px 0;
+    background: url("../images/bgfooter.jpg"/*tpa=http://www.massive-wood.ru/images/bgfooter.jpg*/) no-repeat;
+    background-size: 100% 100%;
+}
+footer .back p {
+    font-family: 'Sylfaen';
+    font-size: 30px;
+    color: #fff;
+    margin-top: -10px;
+}
+footer .button {
+    font-family: 'ProximaNova-Bold';
+    color: #434343;
+    font-size: 16px;
+    background: #fff;
+    text-transform: uppercase;
+    max-width: 276px;
+    display: inline-block;
+    border: 1px solid #2d1e15;
+    outline: 2px solid #ffffff;
+    margin-top: 10px;
+}
+.submit:hover, .button:hover {
+        background: url("../images/bgbutton.jpg"/*tpa=http://www.massive-wood.ru/images/bgbutton.jpg*/) no-repeat;
+    background-size: 100% 100%;
+    color: #fff;
+    text-decoration: none; 
+        border: 1px solid #2d1e15;
+    outline: 2px solid #ffffff;
+}
+#services
+{
+	text-align:center;
+	padding-bottom:40px;
+}
+.submit-f
+{
+	width:230px;
+	height:40px;
+	text-transform:uppercase;
+	color:#fff;
+	border-radius:5px;
+	background:#314155;
+	font-size:15px;
+	display:block;
+	margin:0 auto;
+	margin-top:-80px;
+	margin-bottom:80px;
+	text-align:center;
+	line-height:40px;
+}
+.ss:hover
+{
+	color:#fff;
+}
+.submit-s
+{
+	width:230px;
+	height:40px;
+	text-transform:uppercase;
+	color:#fff;
+	border-radius:5px;
+	background:#2293CA;
+	font-size:15px;
+	display:block;
+	margin:0 auto;
+	margin-top:40px;
+	text-align:center;
+	line-height:40px;
+}
+.submit-q
+{
+	width:180px;
+	height:40px;
+	text-transform:uppercase;
+	color:#fff;
+	border-radius:5px;
+	background:transparent;
+	border:2px solid #fff;
+	font-size:15px;
+	display:block;
+	margin:0 0 0 auto;
+	text-align:center;
+	line-height:40px;
+}
+.ph
+{
+	font-size:25px;
+	margin-bottom:10px;
+	color:#fff;
+	text-align:right;
+}
+.color {background: #e46970 url("../images/flowers.png"/*tpa=http://www.massive-wood.ru/images/flowers.png*/);}
+#services p
+{
+	font-size:18px;
+	font-family:'calibrib';
+	color:#4c4c4c;
+	margin-top:25px;
+}
+section h3 {
+    color: #000;
+    font-size: 30px;
+    font-family: 'Sylfaen';
+    margin: 0 0 25px 0;
+}
+.nopad {
+    padding: 0 !important;
+}
+.text {
+        padding: 18px 25px 15px 25px;
+    background: #e9e9e9;
+    text-align: left;
+    min-height: 245px;
+    position: relative;
+}
+.text p {
+    color: #505050;
+    font-family: 'ProximaNova-Regular';
+    font-size: 16px;
+}
+.form2 h2
+{
+	text-align:center;
+	margin-top:0;
+	margin-bottom:25px;
+	color:#5f5f5f;
+	font-size:36px;
+	font-family:'calibrib';
+}
+@media (max-width:1300px) {
+    .sevenborder img.img1, .sevenborder img.img2 {display: none;}
+    .img1v, .img2v {
+        display: inline-block;
+         max-height: 310px;
+         text-align: center;
+    }
+    .sevenborder.right, .sevenborder.left {text-align: center; padding: 55px 0;}
+}
+@media (min-width:750px) and (max-width:1300px)
+{
+	.form input[type="submit"]
+	{
+		width:240px;
+		font-size:14px;
+	}.form2 input[type="submit"]
+	{
+		width:180px;
+		font-size:14px;
+	}
+}
+@media (max-width: 800px)
+{
+	#welcome .h1 {
+		padding-bottom: 40px;
+		padding-top: 30px;
+	}
+	.description span {
+		padding-top: 15px;
+		display: block;
+	}
+	.submit-q
+	{
+		margin:0 auto;
+	}
+	.ph
+	{
+		text-align:center;
+		margin-top:20px;
+	}
+	#who_are .row:last-child
+	{
+		background:none !important;
+	}
+	#stap3 +img
+	{
+		display:none;
+	}
+	section#service .row, section#stap3 .row
+	{
+		display:block;
+		margin-top:20px;
+	}
+	.title-block
+	{
+		text-align:center;
+	}
+	#portfolio .col-sm-3 p
+{
+	margin-top:-90px;
+}
+	#portfolio .col-sm-3 .lupa
+{
+	opacity:1;
+}
+		.col-sm-15
+		{
+			width:100%;
+			margin-bottom:40px;
+		}
+	footer .row > div
+{
+	text-align:center !important;
+}
+		.hide-mobile
+		{
+			display:none !important;
+		}
+		.button, input {
+   		 margin: 10px 0 !important;
+		}
+		.catalog
+		{
+			margin-top:20px;
+		}
+		#slide h1
+		{
+			text-align:center;
+		}
+		#slide
+		{
+			margin-top:0px;
+		}
+		header .col-sm-2
+		{
+			text-align:center !important;
+		}
+	.plus .col-sm-4
+	{
+		margin-bottom:20px;
+	}
+	.book {
+    margin-left: 10px !important;
+    max-width: 100% !important;
+}
+
+}
+@media (max-width:600px)
+{
+        span.gold, span.company {text-align: center}
+	img.krem2 {
+   	 max-width: 100% !important;
+	}
+	section.forms
+	{
+		margin:0 auto;
+	}
+	.submit-f
+	{
+		margin-top:-40px;
+		margin-bottom:40px;
+	}
+	#portfolio
+	{
+		padding-top:20px;
+	}
+	#form6
+	{
+		text-align:center;
+	}
+	#stap3 .row .col-sm-6
+	{
+		margin-top:20px;
+	}
+	#stap3 span.number
+	{
+		padding-bottom:0;
+		margin-top:0;
+	}
+	p.fline
+	{
+		margin-left:0;
+	}
+	footer
+	{
+		padding:20px 0;
+	}
+	p.rline
+	{
+		margin-left:0;
+	}
+	p.bgb
+	{
+		text-align:center;
+	}
+	section#who_are
+	{
+		padding-bottom:20px;
+	}
+	section#ten
+	{
+		padding:30px 0;
+	}
+section#service, section#stap2, section#stap3, section#who_are
+{
+	padding-top:30px;
+}
+}
+
+
+#wrap {
+    display: none;
+    opacity: .8;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    padding: 16px;
+    background-color: rgba(1,1,1,0.725);
+    z-index: 999999;
+    overflow: auto;
+}
+
+#window {
+    margin: auto auto;
+    display: none;
+    z-index: 9999999;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 10%;
+    bottom: 0;
+    padding: 0px;
+    text-align: center;
+}
+.minm {margin: -20px -20px 40px -20px; }
+.window {
+    width: auto;
+    background: none;
+    padding: 20px;
+    border-radius: 20px;
+    display: inline-block;
+    position: relative;
+}
+#window > div {
+    max-width: 600px;
+    margin: 0 auto;
+}
+.window img{max-width: 100%}
+.window .closes
+{
+	    right: 0px;
+    top: 0px;
+    position: absolute;
+    z-index: 10;
+}
+.col-sm-7.margin {
+    margin: 0px -13%;
+    z-index: 0;
+    position: relative;
+}
+input.button.fio {
+    border: 2px solid #8e44ad;
+    color: #8e44ad;
+}
+input.button.fio:hover {
+    background-color: #A753CA;
+    color: #fff;
+}
+span.heading-window {
+    color: #e93a61;
+    font-size: 25px;
+    text-align: left;
+    display: block;
+    font-family: 'MuseoCyrl-500';
+}
+.window p {
+    font-size: 13px;
+    color: #4d4850;
+    font-family: 'Ubuntu-R';
+    font-family: 'Ubuntu';
+    text-align: left;
+}
+::-webkit-input-placeholder {color:#444444;
+    text-transform: uppercase;
+    font-family: 'ProximaNova-Bold';
+    font-size: 14px;}
+::-moz-placeholder          {color:#444444;
+    text-transform: uppercase;
+    font-family: 'ProximaNova-Bold';
+    font-size: 14px;}/* Firefox 19+ */
+:-moz-placeholder           {color:#444444;
+    text-transform: uppercase;
+    font-family: 'ProximaNova-Bold';
+    font-size: 14px;}/* Firefox 18- */
+:-ms-input-placeholder      {color:#444444;
+    text-transform: uppercase;
+    font-family: 'ProximaNova-Bold';
+    font-size: 14px;}
+.close {
+    float: none !important;
+    margin-top: 4px;
+    cursor: pointer;
+        position: absolute;
+    z-index: 9999;
+    opacity:1 !important;
+}
+.logo .logo-name {
+    display: none;
+}
+.logo-name {
+    margin-bottom: -118px;
+}
+.fancyborder {
+    background: url("../images/fancyborder.jpg"/*tpa=http://www.massive-wood.ru/images/fancyborder.jpg*/) no-repeat;
+    background-size: 100% 100%;
+    max-width: 390px;
+    padding-bottom: 20px;
+}
+.fancyborder .description-form {
+    color: #000;
+    padding: 40px 30px 0;
+}
+@media (max-width:800px) {
+	header .description, .right, .left {text-align: center;     padding-bottom: 25px;}
+    .sevenborder {
+        margin: 0 auto;
+        padding: 50px 0 !important;
+        text-align: center;
+    }
+    header .description { padding-top: 5%;}
+    .sale {
+    text-align: center;
+    float: none;
+    padding: 40px 0 0 0;
+    }
+    .sale img {display: none}
+    #form1 {background:none; padding:0;}
+    .col-sm-5 {
+        text-align: center;
+    }
+}
+@media (max-width:767px) {
+.logo-name {
+  		display: none;
+	}
+    .logo .logo-name {
+    	display: inline-block;
+    	margin-bottom: 0;
+   		margin-top: 20px;
+	}
+}
+ img.abs2 {display: none;}
+@media (max-width:600px) {
+     form input, .submit, input[type="submit"] {
+        max-width: 240px
+     }
+     .img {min-height: 0 !important}
+    }
+@media (max-width:800px) {
+     span.title
+    {
+        padding-bottom:40px;
+    }
+    input.phoness, input.emails, input.name
+    {
+        margin-bottom:15px;
+    }
+    .border-black+.border-black {margin-top: 10px;}
+    img.abs {display: none;}
+    img.abs2 {display: inline-block;}
+    #one .form
+    {
+        padding-bottom:0;
+        margin-bottom:0;
+    }
+    #two p 
+    {
+        line-height:1;
+    }
+    section#two .col-sm-12+.col-sm-12
+    {
+        padding-top:0;
+    }
+    #three .container > p
+    {
+        padding-top:0 !important;
+    }
+    .bgros
+    {
+        max-width:350px;
+        margin:0 auto;
+    }
+    p.shadow
+    {
+        margin-top:10px;
+    }
+    section#three
+    {
+        padding-bottom:0px;
+    }
+       #four .shadow + .row
+    {
+        padding-top:15px !important;
+        padding-bottom:15px !important;
+    }
+    #six
+    {
+        padding:0;
+    }
+    .slick-slider
+    {
+        padding:0 20px !important;
+    }
+    .testi
+    {
+        text-align:center;
+    }
+    .testi img
+    {
+        float:none;
+    }
+    .margin {
+        margin: 0 !important;
+    }
+@media (min-width:1200px) {
+	section#one {
+	    background: url("../images/bgone.jpg"/*tpa=http://www.massive-wood.ru/images/bgone.jpg*/) no-repeat 0px top;
+	}
+	section#four {
+	    background: url("../images/bgfour.jpg"/*tpa=http://www.massive-wood.ru/images/bgfour.jpg*/) no-repeat 0px bottom;
+	}
+}
+   
+@media (max-width:460px) {
+.block {
+    bottom: 10px;
+}
+.want {
+    padding: 10px;
+}
+    .window {
+        max-width: 320px;
+    }
+}
