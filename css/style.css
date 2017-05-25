@@ -1,49 +1,49 @@
 @font-face {
   font-family: 'ProximaNova-Bold';
-  src: url("../fonts/ProximaNova-Bold.eot"/*tpa=http://www.massive-wood.ru/fonts/ProximaNova-Bold.eot*/);
-  src: url("../fonts/ProximaNova-Bold.woff2"/*tpa=http://www.massive-wood.ru/fonts/ProximaNova-Bold.woff2*/) format('woff2'),
-       url("../fonts/ProximaNova-Bold.woff"/*tpa=http://www.massive-wood.ru/fonts/ProximaNova-Bold.woff*/) format('woff'),
-       url("../fonts/ProximaNova-Bold.ttf"/*tpa=http://www.massive-wood.ru/fonts/ProximaNova-Bold.ttf*/) format('truetype'),
-       url("../fonts/ProximaNova-Bold.svg#ProximaNova-Bold"/*tpa=http://www.massive-wood.ru/fonts/ProximaNova-Bold.svg#ProximaNova-Bold*/) format('svg'),
-       url("../fonts/ProximaNova-Bold.eot-#iefix"/*tpa=http://www.massive-wood.ru/fonts/ProximaNova-Bold.eot?#iefix*/) format('embedded-opentype');
+  src: url("../fonts/ProximaNova-Bold.eot");
+  src: url("../fonts/ProximaNova-Bold.woff2") format('woff2'),
+       url("../fonts/ProximaNova-Bold.woff") format('woff'),
+       url("../fonts/ProximaNova-Bold.ttf") format('truetype'),
+       url("../fonts/ProximaNova-Bold.svg#ProximaNova-Bold") format('svg'),
+       url("../fonts/ProximaNova-Bold.eot-#iefix") format('embedded-opentype');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: 'ProximaNova-Light';
-  src: url("../fonts/ProximaNova-Light.eot"/*tpa=http://www.massive-wood.ru/fonts/ProximaNova-Light.eot*/);
-  src: url("../fonts/ProximaNova-Light.woff2"/*tpa=http://www.massive-wood.ru/fonts/ProximaNova-Light.woff2*/) format('woff2'),
-       url("../fonts/ProximaNova-Light.woff"/*tpa=http://www.massive-wood.ru/fonts/ProximaNova-Light.woff*/) format('woff'),
-       url("../fonts/ProximaNova-Light.ttf"/*tpa=http://www.massive-wood.ru/fonts/ProximaNova-Light.ttf*/) format('truetype'),
-       url("../fonts/ProximaNova-Light.svg#ProximaNova-Light"/*tpa=http://www.massive-wood.ru/fonts/ProximaNova-Light.svg#ProximaNova-Light*/) format('svg'),
-       url("../fonts/ProximaNova-Light.eot-#iefix"/*tpa=http://www.massive-wood.ru/fonts/ProximaNova-Light.eot?#iefix*/) format('embedded-opentype');
+  src: url("../fonts/ProximaNova-Light.eot");
+  src: url("../fonts/ProximaNova-Light.woff2") format('woff2'),
+       url("../fonts/ProximaNova-Light.woff") format('woff'),
+       url("../fonts/ProximaNova-Light.ttf") format('truetype'),
+       url("../fonts/ProximaNova-Light.svg#ProximaNova-Light") format('svg'),
+       url("../fonts/ProximaNova-Light.eot-#iefix") format('embedded-opentype');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: 'ProximaNova-Regular';
-  src: url("../fonts/ProximaNova-Regular.eot"/*tpa=http://www.massive-wood.ru/fonts/ProximaNova-Regular.eot*/);
-  src: url("../fonts/ProximaNova-Regular.woff2"/*tpa=http://www.massive-wood.ru/fonts/ProximaNova-Regular.woff2*/) format('woff2'),
-       url("../fonts/ProximaNova-Regular.woff"/*tpa=http://www.massive-wood.ru/fonts/ProximaNova-Regular.woff*/) format('woff'),
-       url("../fonts/ProximaNova-Regular.ttf"/*tpa=http://www.massive-wood.ru/fonts/ProximaNova-Regular.ttf*/) format('truetype'),
-       url("../fonts/ProximaNova-Regular.svg#ProximaNova-Regular"/*tpa=http://www.massive-wood.ru/fonts/ProximaNova-Regular.svg#ProximaNova-Regular*/) format('svg'),
-       url("../fonts/ProximaNova-Regular.eot-#iefix"/*tpa=http://www.massive-wood.ru/fonts/ProximaNova-Regular.eot?#iefix*/) format('embedded-opentype');
+  src: url("../fonts/ProximaNova-Regular.eot");
+  src: url("../fonts/ProximaNova-Regular.woff2") format('woff2'),
+       url("../fonts/ProximaNova-Regular.woff") format('woff'),
+       url("../fonts/ProximaNova-Regular.ttf") format('truetype'),
+       url("../fonts/ProximaNova-Regular.svg#ProximaNova-Regular") format('svg'),
+       url("../fonts/ProximaNova-Regular.eot-#iefix") format('embedded-opentype');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: 'Sylfaen';
-  src: url("../fonts/8294.eot"/*tpa=http://www.massive-wood.ru/fonts/8294.eot*/);
-  src: url("../fonts/8294.woff2"/*tpa=http://www.massive-wood.ru/fonts/8294.woff2*/) format('woff2'),
-       url("../fonts/8294.eot-#iefix"/*tpa=http://www.massive-wood.ru/fonts/8294.eot?#iefix*/) format('embedded-opentype');
+  src: url("../fonts/8294.eot");
+  src: url("../fonts/8294.woff2") format('woff2'),
+       url("../fonts/8294.eot-#iefix") format('embedded-opentype');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: 'Sylfaen';
-  src: url("../fonts/Sylfaen.woff"/*tpa=http://www.massive-wood.ru/fonts/Sylfaen.woff*/) format('woff'),
-       url("../fonts/Sylfaen.ttf"/*tpa=http://www.massive-wood.ru/fonts/Sylfaen.ttf*/) format('truetype'),
-       url("../fonts/Sylfaen.svg#Sylfaen"/*tpa=http://www.massive-wood.ru/fonts/Sylfaen.svg#Sylfaen*/) format('svg');
+  src: url("../fonts/Sylfaen.woff") format('woff'),
+       url("../fonts/Sylfaen.ttf") format('truetype'),
+       url("../fonts/Sylfaen.svg#Sylfaen") format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -119,7 +119,7 @@ i.fa.fa-bars {
 	width:100%;
 	margin:0 auto;
 }
-p 
+p
 {
 	margin:0;
 	padding:0 ;
@@ -166,7 +166,7 @@ section#four {
 }
 header
 {
-	background: url("../images/bgheader.jpg"/*tpa=http://www.massive-wood.ru/images/bgheader.jpg*/) top center no-repeat;
+	background: url("../images/bgheader.jpg") top center no-repeat;
     width: 100%;
     padding: 0px 5px;
     z-index: 99999;
@@ -216,7 +216,7 @@ a.buttonsend {
     max-width: 400px;
  }
 .flowers {
-    background:url("../images/flowers.png"/*tpa=http://www.massive-wood.ru/images/flowers.png*/);
+    background:url("../images/flowers.png");
   }
 .nav li a
 {
@@ -262,7 +262,7 @@ span.text-step {
     border-top: 10px solid #fff;
 }
 section#too {
-    background: url("../images/bgfour.jpg"/*tpa=http://www.massive-wood.ru/images/bgfour.jpg*/) no-repeat;
+    background: url("../images/bgfour.jpg") no-repeat;
     background-size: 100% 100%;
     padding-bottom: 70px;
     box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.5) inset;
@@ -402,7 +402,7 @@ span.name-step {
 	border-bottom:1px solid #D8D9D9;
 	overflow:hidden;
 }
-#slide h1 
+#slide h1
 {
 	font-size:48px;
 	color:#d45306;
@@ -417,7 +417,7 @@ span.name-step {
 .catalog li
 {
 	padding-left:50px;
-	background:url("../images/li.jpg"/*tpa=http://www.massive-wood.ru/images/li.jpg*/) no-repeat left center;
+	background:url("../images/li.jpg") no-repeat left center;
 	font-size:26px;
 	color:#444343;
 	list-style:none;
@@ -729,7 +729,7 @@ section#stap3 {
     background: #1465c1;
 }
 section#ten {
-    background: url("../images/tenbg.jpg"/*tpa=http://www.massive-wood.ru/images/tenbg.jpg*/) no-repeat center center / cover;
+    background: url("../images/tenbg.jpg") no-repeat center center / cover;
    	padding: 35px 0px 120px;
 }
 section#who_are {
@@ -814,7 +814,7 @@ form .bg {
     padding: 25px 20px;
 }
 .border {
-    background: url("../images/bgborder.png"/*tpa=http://www.massive-wood.ru/images/bgborder.png*/) no-repeat;
+    background: url("../images/bgborder.png") no-repeat;
     background-size: 100% 100%;
     padding: 40px 0 0 0;
 }
@@ -851,7 +851,7 @@ img.krem-none {
     font-size: 40px !important;
 }
   section#eight {
-    background: #aeaba6 url("../images/eightbg.jpg"/*tpa=http://www.massive-wood.ru/images/eightbg.jpg*/) no-repeat 60% !important; 
+    background: #aeaba6 url("../images/eightbg.jpg") no-repeat 60% !important;
   }
 }
 span.bold {
@@ -913,11 +913,11 @@ section#eight h2 {
     margin: 45px 0;
 }
 section#eight {
-    background: #aeaba6 url("../images/eightbg.jpg"/*tpa=http://www.massive-wood.ru/images/eightbg.jpg*/) no-repeat left;
+    background: #aeaba6 url("../images/eightbg.jpg") no-repeat left;
         background-size: auto 100%;
 }
 .sevenborder {
-    background: url("../images/sevenborder.jpg"/*tpa=http://www.massive-wood.ru/images/sevenborder.jpg*/) no-repeat;
+    background: url("../images/sevenborder.jpg") no-repeat;
     background-size: 100% 100%;
 }
 .sevenborder.right {
@@ -930,7 +930,7 @@ section#eight {
     padding: 10px 45px;
 }
 .sevenborder .submit:hover {
-    padding: 10px 45px !important; 
+    padding: 10px 45px !important;
 }
 img.img1 {
     position: absolute;
@@ -949,15 +949,15 @@ img.img2 {
     display: inline-block;
   }
 .testi img{
-  padding-bottom: 10px;  
+  padding-bottom: 10px;
 }
 section#five {
-    background: url("../images/bgfive.jpg"/*tpa=http://www.massive-wood.ru/images/bgfive.jpg*/) no-repeat;
+    background: url("../images/bgfive.jpg") no-repeat;
     background-size: 100% 100%;
 }
 section#five h2 { color:#fff; }
 #five h2:before, #five .h2:before {
-    background: url("../images/line2.png"/*tpa=http://www.massive-wood.ru/images/line2.png*/);
+    background: url("../images/line2.png");
 }
 section#five p {
     font-family: 'ProximaNova-Regular';
@@ -970,24 +970,24 @@ section#four .col-sm-4, section#five .row {
 .testi .red {display: block;font-size: 20px;
     font-weight: 700;}
 .testi > div {
-    
+
   }
 @media (max-width: 450px) {
   .testi > div {
   width: 100%;
-  margin-right:0; 
+  margin-right:0;
 }
 }
 section#fiveб section#four {
     background: #F9F9F9;
 }
 section#four, section#six {
-    background: url("../images/bgfour.jpg"/*tpa=http://www.massive-wood.ru/images/bgfour.jpg*/) no-repeat;
+    background: url("../images/bgfour.jpg") no-repeat;
     background-size: 100% 100%;
 }
 section#seven {
     padding: 120px 0 130px;
-    background: url("../images/bgseven.jpg"/*tpa=http://www.massive-wood.ru/images/bgseven.jpg*/) no-repeat;
+    background: url("../images/bgseven.jpg") no-repeat;
     background-size: 100% 100%;
 }
 .name-material {
@@ -1205,7 +1205,7 @@ p.design {
     color: #000000;
     padding: 35px;
     text-align: right;
-    background: url("../images/line.png"/*tpa=http://www.massive-wood.ru/images/line.png*/) no-repeat right;
+    background: url("../images/line.png") no-repeat right;
     background-size: auto 100%;
     margin: 50px 0;
 }
@@ -1238,7 +1238,7 @@ form {
 }
 input.b {border:1px solid #c0c0c0;}
 #form1 {
-     background: url("../images/bgform.png"/*tpa=http://www.massive-wood.ru/images/bgform.png*/) no-repeat;
+     background: url("../images/bgform.png") no-repeat;
     background-size: 100% 100%;
     padding: 50px 40px;
 }
@@ -1259,7 +1259,7 @@ section#one {
     position: absolute;
     width: 206px;
     height: 20px;
-    background: url("../images/line.png"/*tpa=http://www.massive-wood.ru/images/line.png*/);
+    background: url("../images/line.png");
 }
 img.krem {
 	display: none;
@@ -1301,12 +1301,12 @@ a.submit.too:hover {
 .submit, input.button.too {
     border: 1px solid #fff;
     outline: 1px solid #2d1e15;
-    background: url("../images/bgbutton2.jpg"/*tpa=http://www.massive-wood.ru/images/bgbutton2.jpg*/) no-repeat;
+    background: url("../images/bgbutton2.jpg") no-repeat;
     background-size: 100% 100%;
     color: #fff;
         margin-top: 15px;
 }
-.submit:hover , input.button.too:hover {background: url("../images/bgbutton.jpg"/*tpa=http://www.massive-wood.ru/images/bgbutton.jpg*/) no-repeat; background-size: 100% 100%;}
+.submit:hover , input.button.too:hover {background: url("../images/bgbutton.jpg") no-repeat; background-size: 100% 100%;}
 .bg1 {
 	background-color: #ebfafb;
 }
@@ -1368,7 +1368,7 @@ section#three .border img {
 section#three .border {
     margin: 100px auto 60px;
     max-width: 700px;
-    background: url("../images/borderthree.jpg"/*tpa=http://www.massive-wood.ru/images/borderthree.jpg*/) no-repeat;
+    background: url("../images/borderthree.jpg") no-repeat;
     background-size: 100% 100%;
     padding: 40px 0 20px 0;
 }
@@ -1579,7 +1579,7 @@ p.shadow img{
 footer
 {
 	padding: 20px 0;
-    background: url("../images/bgfooter.jpg"/*tpa=http://www.massive-wood.ru/images/bgfooter.jpg*/) no-repeat;
+    background: url("../images/bgfooter.jpg") no-repeat;
     background-size: 100% 100%;
 }
 footer .back p {
@@ -1601,10 +1601,10 @@ footer .button {
     margin-top: 10px;
 }
 .submit:hover, .button:hover {
-        background: url("../images/bgbutton.jpg"/*tpa=http://www.massive-wood.ru/images/bgbutton.jpg*/) no-repeat;
+        background: url("../images/bgbutton.jpg") no-repeat;
     background-size: 100% 100%;
     color: #fff;
-    text-decoration: none; 
+    text-decoration: none;
         border: 1px solid #2d1e15;
     outline: 2px solid #ffffff;
 }
@@ -1670,7 +1670,7 @@ footer .button {
 	color:#fff;
 	text-align:right;
 }
-.color {background: #e46970 url("../images/flowers.png"/*tpa=http://www.massive-wood.ru/images/flowers.png*/);}
+.color {background: #e46970 url("../images/flowers.png");}
 #services p
 {
 	font-size:18px;
@@ -1983,7 +1983,7 @@ span.heading-window {
     margin-bottom: -118px;
 }
 .fancyborder {
-    background: url("../images/fancyborder.jpg"/*tpa=http://www.massive-wood.ru/images/fancyborder.jpg*/) no-repeat;
+    background: url("../images/fancyborder.jpg") no-repeat;
     background-size: 100% 100%;
     max-width: 390px;
     padding-bottom: 20px;
@@ -2045,7 +2045,7 @@ span.heading-window {
         padding-bottom:0;
         margin-bottom:0;
     }
-    #two p 
+    #two p
     {
         line-height:1;
     }
@@ -2096,13 +2096,13 @@ span.heading-window {
     }
 @media (min-width:1200px) {
 	section#one {
-	    background: url("../images/bgone.jpg"/*tpa=http://www.massive-wood.ru/images/bgone.jpg*/) no-repeat 0px top;
+	    background: url("../images/bgone.jpg") no-repeat 0px top;
 	}
 	section#four {
-	    background: url("../images/bgfour.jpg"/*tpa=http://www.massive-wood.ru/images/bgfour.jpg*/) no-repeat 0px bottom;
+	    background: url("../images/bgfour.jpg") no-repeat 0px bottom;
 	}
 }
-   
+
 @media (max-width:460px) {
 .block {
     bottom: 10px;
